@@ -9,4 +9,5 @@
 - Have SQL Server installed on your machine
 - Change the 'server' in app.settings.json to your local one
 - Using the package manager console run Update-Database. This will seed the db as well.
+  - *Ensure Insurance.API is the startup project and Insurance.DataAccess is default project in package manager console for this to work*
 - On completion of the above steps. Run the service and try it out.
